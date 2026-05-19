@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"Stop\",\"additionalContext\":\"REMINDER: If you changed architecture, npm scripts, or folder structure this session, update CLAUDE.md to reflect those changes.\"}}'",
+            "statusMessage": "Checking CLAUDE.md reminder..."
+          }
+        ]
+      }
+    ]
+  }
+}
